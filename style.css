@@ -61,7 +61,7 @@ header {
 
 .logo {  
     position: absolute;
-    width: 200px;
+    width: 250px;
     height: 89px;
     box-sizing: border-box;
     padding: 38px 0px 11px 40px
@@ -81,7 +81,7 @@ header {
 }
 
 .navbar {
-    width: 650px;
+    width: 450px;
     height: 89px;
 }
 
@@ -437,7 +437,8 @@ main {
 .picture {
     margin-bottom: 2%;
     margin-right: 2%;
-    width: 23%;
+    width: 20%;
+	/*height: 30%;*/
 }
 
 .about-us {
@@ -481,7 +482,8 @@ main {
 }
 
 .person-photo {
-    width: 100%;
+    width: 303px;
+	height: 303px;
 }
 
 .person h3 {
