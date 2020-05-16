@@ -67,14 +67,15 @@ header {
     padding: 18px 0px 10px 20px
 }
 .logo img {
-	border-radius: 40px;
+	border-radius: 20px;
 }
 .logo h1 {
     position: absolute;
-	left: 85px;
+	bottom: -14px;
+	left: 115px;
 	display: inline;
-    font-family: Lato-Bold;
-    font-size: 26px;
+    font-family: Lato-Light;
+    font-size: 40px;
     letter-spacing: 0px;
 }
 
@@ -92,7 +93,8 @@ header {
 .navbar ul {
     display: flex;
     justify-content: space-between;
-    box-sizing: border-box;
+    
+	box-sizing: border-box;
     padding: 30px 36px 0 38px; 
 }
 
@@ -244,7 +246,7 @@ main {
     padding: 43px 20px 48px 40px;
     max-width: 1020px;
     margin: 0 auto;
-    background: #f2f2f2;
+    background: #FFFFFF;
     border-bottom: 6px solid#ffffff;
 }
 
@@ -265,9 +267,10 @@ main {
     letter-spacing: -0.05px;
 }
 .block1 p {
-    margin-top: 27px;
-    font-family: Lato-Light;
-    font-size: 18px;
+    text-indent: 50px;
+	margin-top: 27px;
+    font-family: Lato-Bold;
+    font-size: 26px;
     line-height: 30px;
     letter-spacing: -0.1px;
     color: #2D303A;
@@ -282,7 +285,12 @@ main {
     color: #2D303A;
     text-align: justify;
 }
-
+.block1 img {
+    position: relative;
+	left: -15px;
+	height: 300px;
+	border-radius: 20px;
+}
 
 .block2 {
     display: flex;
@@ -446,7 +454,7 @@ main {
 }
 .picture_logo {
     
-    width: 60px;
+    width: 70px;
 	/*height: 30%;*/
 }
 .about-us {
