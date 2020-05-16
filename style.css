@@ -37,7 +37,7 @@ header {
     height: 97px;
     margin: -8px auto 0 auto; 
     color: #fff;
-    border-bottom: 6px solid #323746;
+    border-bottom: 6px solid #082567;
 }
 
 .fixed-header {
@@ -64,14 +64,18 @@ header {
     width: 450px;
     height: 89px;
     box-sizing: border-box;
-    padding: 38px 0px 11px 40px
+    padding: 18px 0px 10px 20px
 }
-
+.logo img {
+	border-radius: 40px;
+}
 .logo h1 {
-    display: inline;
+    position: absolute;
+	left: 85px;
+	display: inline;
     font-family: Lato-Bold;
     font-size: 26px;
-    letter-spacing: -1px;
+    letter-spacing: 0px;
 }
 
 .logo span {
